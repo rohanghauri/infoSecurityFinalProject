@@ -1,0 +1,10 @@
+We made the DevSecOps Pipeline in the following steps
+1 . Setup an instance of SonarQube on the localhost port 9000
+2 . Created a token for this intance to be used with jenkins
+3 . Started Jenkins as a service on windows
+4 . Configured a task as a freestyle project
+5 . Used the github repo link under source code mgmt tab
+6 . Added a step to execute this instance of SonarQube when the build runs
+7. Added a project in SonarQube as "Info Sec Project" and gave it a name and a key
+8. Added the project name and key in sonarproperties files that must be present in the github repo
+9. Started the build, the build successfully completes generating a report of code analysis
