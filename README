@@ -8,3 +8,10 @@ We made the DevSecOps Pipeline in the following steps
 7. Added a project in SonarQube as "Info Sec Project" and gave it a name and a key
 8. Added the project name and key in sonarproperties files that must be present in the github repo
 9. Started the build, the build successfully completes generating a report of code analysis
+10. To integrate snyK with the pipeline, first I had to make and account on snyk website
+11. Added app.py and requirements.txt as snyk doesnt support html/css projects
+12. Found out the API token from Snyk's website and supplied it in Jenkins
+13. Started the build and found out low severity issues in the build
+
+Heres the link to the demonstartion video: 
+
